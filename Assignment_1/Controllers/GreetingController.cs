@@ -25,7 +25,12 @@ namespace Assignment_1.Controllers
             string message = "Greetings to " + amount.ToString() + " people!";
             return message;
         }
-
+        // POST api/Greeting
+        public string Post(string value)
+        {
+            string message = "Hello world!";
+            return message;
+        }
     }
 }
 
