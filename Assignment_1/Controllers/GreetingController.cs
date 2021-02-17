@@ -12,7 +12,7 @@ namespace Assignment_1.Controllers
      * This code gets an intenger and returns a message.
      * </summary>
      * <example>
-     * Post/api/Greeting/3 -> "Greetins to 3 people!"
+     * Get/api/Greeting/3 -> "Greetins to 3 people!"
      * </example>
      */
     // GET api/Greeting
