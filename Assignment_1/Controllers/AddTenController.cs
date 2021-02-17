@@ -11,7 +11,7 @@ namespace Assignment_1.Controllers
     {
         public int Get(int id)
         {
-            return id +10;
+            return id+10;
         }
     }
 }
