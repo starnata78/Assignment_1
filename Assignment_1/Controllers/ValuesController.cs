@@ -16,9 +16,11 @@ namespace Assignment_1.Controllers
         }
 
         // GET api/values/5
-        public string Get(int id)
+        // the input: interger
+        // the output: the next four intergers after the input
+        public IEnumerable <int> Get(int id)
         {
-            return "value";
+            return new int[]{id+1, id+2, id+3, id+4};
         }
 
         // POST api/values

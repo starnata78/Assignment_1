@@ -21,7 +21,7 @@ public class SquareController : ApiController
     {
         public int Get(int id)
         {
-            return (id);
+            return (id * id);
         }
     }
 }
